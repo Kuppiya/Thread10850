@@ -58,13 +58,13 @@ Partial Class IamMainForm
         'OpenPDFToolStripMenuItem
         '
         Me.OpenPDFToolStripMenuItem.Name = "OpenPDFToolStripMenuItem"
-        Me.OpenPDFToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.OpenPDFToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.OpenPDFToolStripMenuItem.Text = "Open PDF"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'BooksToolStripMenuItem
@@ -77,19 +77,19 @@ Partial Class IamMainForm
         'TestBook02ToolStripMenuItem
         '
         Me.TestBook02ToolStripMenuItem.Name = "TestBook02ToolStripMenuItem"
-        Me.TestBook02ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.TestBook02ToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.TestBook02ToolStripMenuItem.Text = "Test Book 01"
         '
         'TestBook02ToolStripMenuItem1
         '
         Me.TestBook02ToolStripMenuItem1.Name = "TestBook02ToolStripMenuItem1"
-        Me.TestBook02ToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.TestBook02ToolStripMenuItem1.Size = New System.Drawing.Size(141, 22)
         Me.TestBook02ToolStripMenuItem1.Text = "Test Book 02"
         '
         'TestBook03ToolStripMenuItem
         '
         Me.TestBook03ToolStripMenuItem.Name = "TestBook03ToolStripMenuItem"
-        Me.TestBook03ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.TestBook03ToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.TestBook03ToolStripMenuItem.Text = "Test Book 03"
         '
         'HelpToolStripMenuItem
@@ -102,7 +102,7 @@ Partial Class IamMainForm
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'IamOpenFileDialog
@@ -112,14 +112,13 @@ Partial Class IamMainForm
         '
         'IamPDFViewer
         '
-        Me.IamPDFViewer.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.IamPDFViewer.AllowDrop = True
+        Me.IamPDFViewer.Dock = System.Windows.Forms.DockStyle.Fill
         Me.IamPDFViewer.Enabled = True
-        Me.IamPDFViewer.Location = New System.Drawing.Point(0, 27)
+        Me.IamPDFViewer.Location = New System.Drawing.Point(0, 24)
         Me.IamPDFViewer.Name = "IamPDFViewer"
         Me.IamPDFViewer.OcxState = CType(resources.GetObject("IamPDFViewer.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.IamPDFViewer.Size = New System.Drawing.Size(770, 356)
+        Me.IamPDFViewer.Size = New System.Drawing.Size(770, 355)
         Me.IamPDFViewer.TabIndex = 1
         '
         'IamMainForm
