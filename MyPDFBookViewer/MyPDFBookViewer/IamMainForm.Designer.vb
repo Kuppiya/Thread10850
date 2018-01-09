@@ -64,7 +64,7 @@ Partial Class IamMainForm
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'BooksToolStripMenuItem
@@ -77,20 +77,20 @@ Partial Class IamMainForm
         'TestBook02ToolStripMenuItem
         '
         Me.TestBook02ToolStripMenuItem.Name = "TestBook02ToolStripMenuItem"
-        Me.TestBook02ToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
-        Me.TestBook02ToolStripMenuItem.Text = "Test Book 01"
+        Me.TestBook02ToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.TestBook02ToolStripMenuItem.Text = "Internet"
         '
         'TestBook02ToolStripMenuItem1
         '
         Me.TestBook02ToolStripMenuItem1.Name = "TestBook02ToolStripMenuItem1"
-        Me.TestBook02ToolStripMenuItem1.Size = New System.Drawing.Size(141, 22)
-        Me.TestBook02ToolStripMenuItem1.Text = "Test Book 02"
+        Me.TestBook02ToolStripMenuItem1.Size = New System.Drawing.Size(223, 22)
+        Me.TestBook02ToolStripMenuItem1.Text = "Internet For Beginners Part 1"
         '
         'TestBook03ToolStripMenuItem
         '
         Me.TestBook03ToolStripMenuItem.Name = "TestBook03ToolStripMenuItem"
-        Me.TestBook03ToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
-        Me.TestBook03ToolStripMenuItem.Text = "Test Book 03"
+        Me.TestBook03ToolStripMenuItem.Size = New System.Drawing.Size(229, 22)
+        Me.TestBook03ToolStripMenuItem.Text = "Open Source Software Notice"
         '
         'HelpToolStripMenuItem
         '
@@ -102,7 +102,7 @@ Partial Class IamMainForm
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'IamOpenFileDialog
@@ -128,6 +128,7 @@ Partial Class IamMainForm
         Me.ClientSize = New System.Drawing.Size(770, 379)
         Me.Controls.Add(Me.IamPDFViewer)
         Me.Controls.Add(Me.IamMenuStrip)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.IamMenuStrip
         Me.Name = "IamMainForm"
         Me.Text = "My PDF Book Viewer"
